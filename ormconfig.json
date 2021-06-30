@@ -1,0 +1,8 @@
+{
+    "type": "mongodb",
+    "url": "mongodb://127.0.0.1/typeorm_db",
+    "useNewUrlParser": true,
+    "synchronize": true,
+    "logging": true,
+    "entities": ["dist/models/**/*.js"]
+  }
